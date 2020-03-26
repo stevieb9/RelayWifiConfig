@@ -15,7 +15,6 @@ bool _init = false;
 void loop () {
     if (! _init) {
         relayConfig();
-    }
-    else {
         _init = true;
     }
+}
