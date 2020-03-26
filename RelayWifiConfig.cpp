@@ -46,7 +46,6 @@ void relayConfig (uint8_t manualConfig) {
         }
     }
 
-
     WiFiManagerParameter custom_mqtt_un("mqtt_un", "MQTT Username", mqtt_un, 41);
     WiFiManagerParameter custom_mqtt_pw("mqtt_pw", "MQTT Password", mqtt_pw, 41);
     WiFiManagerParameter custom_mqtt_id("mqtt_id", "MQTT Client ID", mqtt_id, 41);
